@@ -6,4 +6,4 @@ const MenSalon = () => {
   )
 }
 
-export default MenSalon
+export default MenSalon;

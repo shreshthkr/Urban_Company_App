@@ -49,7 +49,7 @@ const NavLink = ({ children }) => (
   </Link>
 );
 
-export default function Nav() {
+export default function Navbar() {
   // const { colorMode, toggleColorMode } = useColorMode();
   const [num, setNum] = useState("");
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -83,11 +83,11 @@ export default function Nav() {
   
   return (
     <>
-      <Box bg={useColorModeValue('trasparent')} >
+      <Box bg={useColorModeValue('trasparent') } >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}
         w='90%' m='auto'
         >
-          <Box h='50px' w='23%' ml='90'><Image src={Logo} w='52%' h='85%' mt='10px' /></Box>
+          <Box h='50px' w='23%' ml='90'><Image src={Logo} w='52%' h='85%' mt='10px'  /></Box>
 
           <Flex>
             <Stack direction={'row'} spacing={7} alignItems='center' justifyContent='space-evenly'>

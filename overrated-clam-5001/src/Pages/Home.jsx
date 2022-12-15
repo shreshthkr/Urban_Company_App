@@ -1,8 +1,13 @@
 import React from 'react'
+import TopSection from "../Components/TopSection/TopSection"
+
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <TopSection />
+    </div>
   )
 }
 

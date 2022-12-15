@@ -1,0 +1,12 @@
+.serviceBox{
+    width:18% ;
+    height: 110px;
+    display:flex;
+     flex-direction:column;
+      align-items:center;
+       justify-content:space-evenly;
+        cursor:pointer;
+}
+.serviceBox:hover{
+    background-color: beige;
+}

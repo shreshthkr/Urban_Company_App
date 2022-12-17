@@ -1,0 +1,156 @@
+{
+    "BestSeller" : [
+        {
+            "Highlight": "PACKAGE",
+            "service": "Face Detox",
+            "rating": 4.77,
+            "TotalRating": "(1.4M)",
+            "price": "₹1,079",
+            "Timing": "1 hr 15 mins",
+            "Detail1": "Face & neck",
+            "Detail2": "Eyebrow threading",
+            "Detail3": "Elysian Pinacolada Fruit cleanup"
+          },
+          {
+            "Highlight": "PACKAGE",
+            "service": "Full Body Indulgence",
+            "rating": 4.78,
+            "TotalRating": "(1.4M)",
+            "price": "₹3,929",
+            "Timing": "4 hrs 15 mins",
+            "Detail1": "Eyebrow threading",
+            "Detail2": "Chocolate Roll-on",
+            "Detail3": "Elysian Chocolate & Vanilla pedicure"
+          },
+          {
+            "Highlight": "PACKAGE",
+            "service": "Wax & glow",
+            "rating": 4.78,
+            "TotalRating": "(1.4M)",
+            "price": "₹3,359",
+            "Timing": "2 hrs 30 mins",
+            "Detail1": "Full legs RICA",
+            "Detail2": "Full arms + Underarms (RICA)",
+            "Detail3": "O3+ power brightening facial"
+          },
+          {
+            "Highlight": "PACKAGE",
+            "service": "Wax and glow [Honey regular waxing]",
+            "rating": 4.78,
+            "TotalRating": "(1.4M)",
+            "price": "₹1,859",
+            "Timing": "2 hrs 25 mins",
+            "Detail1": "Full Arms +Underarms Honey",
+            "Detail2": "Full legs Honey",
+            "Detail3": "Cheryl's by L'Oreal glovite facial"
+          },
+          
+  {
+    "Highlight": "PACKAGE",
+    "service": "Mani pedi delight",
+    "rating": 4.77,
+    "TotalRating": "(1.4M)",
+    "price": "₹1,949",
+    "Timing": "2 hrs 10 mins",
+    "Detail1": "Eyebrow threading",
+    "Detail2": "Upper lip",
+    "Detail3": "Elysian Chocolate & Vanilla pedicure"
+ 
+  }
+    ],
+
+    "waxing" : [
+        {
+            "service": "Full legs waxing",
+            "rating": 4.79,
+            "TotalRating": "(165.5K)",
+            "price": "Starts at ₹349",
+            "Timing": "4 options",
+            "Detail1": "Bikini/ bikini line waxing not included",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1669354250835-8735e8.jpeg"
+          },
+          {
+            "Highlight": "NEW ROLL-ON WAXING",
+            "service": "Full arms + underarms waxing",
+            "rating": 4.78,
+            "TotalRating": "(255.4K)",
+            "price": "Starts at ₹309",
+            "Timing": "4 options",
+            "Detail1": "Roll-on, RICA peel-off & honey wax available",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1669354276002-82c744.jpeg"
+          },
+          {
+            "service": "Stomach waxing",
+            "rating": 4.81,
+            "TotalRating": "(11K)",
+            "price": "Starts at ₹299",
+            "Timing": "4 options",
+            "Detail1": "Covers the area from below bust to pelvis",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670321132339-056bac.jpeg"
+          },
+          {
+            "service": "Back waxing",
+            "rating": 4.81,
+            "TotalRating": "(9.7K)",
+            "price": "Starts at ₹449",
+            "Timing": "4 options",
+            "Detail1": "Covers the area from shoulders to pelvis",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670318570257-b35e4d.jpeg"
+          }
+    ],
+    "facials" : [
+        {
+            "service": "Instant glow facials & cleanups",
+            "rating": 4.77,
+            "TotalRating": "(234K)",
+            "price": "Starts at ₹699",
+            "Timing": "7 options",
+            "Detail1": "Perfect for an upcoming special occasion. For radiant & eye-catching skin.",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1669358320306-caf822.jpeg"
+          },
+          {
+            "service": "Hydration facials & cleanups",
+            "rating": 4.78,
+            "TotalRating": "(67.7K)",
+            "price": "Starts at ₹749",
+            "Timing": "2 options",
+            "Detail1": "Perfect for pampering your skin. For moisturised & nourished skin.",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670413185458-4bde76.jpeg"
+          },
+          {
+            "service": "Oil control facials & cleanups",
+            "rating": 4.78,
+            "TotalRating": "(66.5K)",
+            "price": "Starts at ₹849",
+            "Timing": "2 options",
+            "Detail1": "Perfect for regular care of oily combination skin. For smooth & less greasy skin",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1669358312750-390214.jpeg"
+          },
+          {
+            "service": "Tan removal facials",
+            "rating": 4.79,
+            "TotalRating": "(75.5K)",
+            "price": "Starts at ₹1,199",
+            "Timing": "2 options",
+            "Detail1": "Perfect for hot summers or after vacations. For clear & restored skin.",
+            "Detail2": "View details",
+            "Detail3": "Add",
+            "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670486884829-7abce9.jpeg"
+          }
+
+    ]
+}

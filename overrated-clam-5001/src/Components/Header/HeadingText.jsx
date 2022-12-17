@@ -127,12 +127,12 @@ const Header = () => {
     <div className='serviceBox'  >
       <Image w='35px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/categories/category_v2/category_1312fb60.png'   />
       
-      <Text fontSize='12px' fontWeight='500' fontFamily='sans-serif' >Women's Therapies</Text>
+      <Text w='80px' fontSize='12px'  fontWeight='500' fontFamily='sans-serif' >Women's Therapies</Text>
     </div>
     <div className='serviceBox' onClick={handleMenSection}  >
       <Image w='35px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757629780-2b2187.png'   />
       
-      <Text fontSize='12px' fontWeight='500' fontFamily='sans-serif' >Salon For Men</Text>
+      <Text  fontSize='12px' fontWeight='500' fontFamily='sans-serif' >Salon For Men</Text>
     </div>
     <div className='serviceBox' >
       <Image w='35px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757731250-ba3308.png'   />

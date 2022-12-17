@@ -103,7 +103,7 @@ const Header = () => {
   
 </Stack>
        </Box>
-       <Flex ml='480px' gap='2px' mt='15px'>
+       <Flex ml='480px' gap='2px' mt='15px' >
   <Text color='white' fontSize='14px' textDecoration='underline' >Women's Therapies,</Text>
   <Text color='white' fontSize='14px' textDecoration='underline' >Salon for Men</Text>
   <Text color='white' fontSize='14px' textDecoration='underline' >Men's Therapies</Text>

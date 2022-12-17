@@ -1,7 +1,7 @@
 import React from 'react'
 import TopSection from "../Components/TopSection/TopSection"
 import Footer from '../Components/Footer/Footer'
-
+import HomeServices from '../Components/Body/HomeServices';
 
 const Home = () => {
   return (
@@ -10,6 +10,8 @@ const Home = () => {
       <br />
       <br />
       <br />
+      <HomeServices />
+      
       <br />
       <Footer />
     </div>

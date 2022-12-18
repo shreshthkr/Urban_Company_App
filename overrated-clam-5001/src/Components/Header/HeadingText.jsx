@@ -81,9 +81,10 @@ const Header = () => {
       </PopoverHeader>
       <PopoverCloseButton />
       <PopoverBody>
-        <Button colorScheme='blue'>Button</Button>
       </PopoverBody>
-      <PopoverFooter>This is the footer</PopoverFooter>
+      <PopoverFooter>
+        <Input placeholder='Search for Society/Apartment' />
+      </PopoverFooter>
     </PopoverContent>
   </Portal>
 </Popover>

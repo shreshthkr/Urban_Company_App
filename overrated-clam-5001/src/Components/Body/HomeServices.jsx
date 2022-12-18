@@ -4,6 +4,8 @@ import SimpleSlider from "./Carousel";
 import Appliances from "./Appliances";
 import SalonAndSpa from "./SalonAndSpa";
 import Cleaning from "./Cleaning";
+import Luxury from "./Luxury";
+import Policies from "./Policies";
 const serviceStyle = {
   width:'20% ',
   height: '110px',
@@ -112,6 +114,10 @@ const HomeServices = () => {
        <Box w='100%' h='13px' mt='70px' mb='70px' bgColor='rgb(242,244,246)'></Box>
        <Cleaning />
        <Box w='100%' h='13px' mt='70px' mb='70px' bgColor='rgb(242,244,246)'></Box>
+        <Luxury />
+        <Box w='100%' h='13px' mt='20px' mb='20px' bgColor='rgb(242,244,246)'></Box>
+        <Policies />
+        <Box w='100%' h='13px' mt='20px' mb='20px' bgColor='rgb(242,244,246)'></Box>
     </div>
   )
 }

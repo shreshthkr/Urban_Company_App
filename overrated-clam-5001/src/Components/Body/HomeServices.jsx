@@ -6,6 +6,7 @@ import SalonAndSpa from "./SalonAndSpa";
 import Cleaning from "./Cleaning";
 import Luxury from "./Luxury";
 import Policies from "./Policies";
+import { FaBlackTie } from "react-icons/fa";
 const serviceStyle = {
   width:'20% ',
   height: '110px',
@@ -20,12 +21,29 @@ const serviceStyle = {
      hover: 'bgColor(gray.300)'
 
 }
+const categoryStyle = {
+  width:'100% ',
+  height: '250px',
+  display:'flex',
+   flexDirection:'column',
+    alignItems:'center',
+     justifyContent:'space-around',
+      cursor:'pointer',
+      margin: 'auto',
+     cursor: 'pointer',
+
+}
+
+  
+
+
+
 
 const HomeServices = () => {
   return (
     <div>
-      <Box mt='100px'>
-        <Heading fontSize='37px' fontWeight='500' letterSpacing='-1px'  >Home Services</Heading>
+      <Box w='100%' m='auto' mt={{sm:550, md:280, lg:170}}>
+        <Heading fontSize='37px' fontWeight='500' letterSpacing='-1px' position='relative'  >Home Services</Heading>
         <br />
         <br />
         <br />
@@ -67,39 +85,43 @@ const HomeServices = () => {
            <Box w='100%' h='13px' mt='70px' mb='70px' bgColor='rgb(242,244,246)'></Box>
           </Box>
       
-       <Box w='95%' h='auto' m='auto'> 
+           {/* New Category Launches */}
+          
+
+       <Box w='100%' h='auto' m='auto'> 
          <Heading>New Category Launches</Heading>
         <SimpleGrid
-         spacing='8'
-         w='100%'
-         bgColor="white"
-         m='auto'
-         mt='40px'
-         p='10'
-         height='400px'
-         columns={{sm:2, md:3, lg:4}}
+           spacing='10'
+           w='80%'
+           bgColor="white"
+           m='auto'
+           mb='70px'
+           p='8'
+           height='auto'
+           columns={{sm:2, md:3, lg:4}}
+           
         >
-          <Box w='280px' h='400px' cursor='pointer'   >
-            <Image w='100%' h='40%' borderRadius='6px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/images/growth/luminosity/1646140576865-02aba1.jpeg' />
-            <br />
-           <Text fontSize='15px'>Expert Counselling</Text>
-            <Text fontSize='12px' color='gray.500'>Advanced Skin Treatments</Text>
+          <Box style ={categoryStyle}  >
+            <Image w='100%' h='60%' borderRadius='6px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/images/growth/luminosity/1646140576865-02aba1.jpeg' />
+          
+           <Text fontSize='15px' lineHeight='2px' mb='-10px'>Expert Counselling</Text>
+            <Text fontSize='12px' color='gray.500' lineHeight='2px'>Advanced Skin Treatments</Text>
           </Box>
-          <Box w='280px' h='400px' cursor='pointer' >
-            <Image w='100%' h='40%' borderRadius='6px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/bigpictures/carpenter.jpg' />
-            <br />
+          <Box style ={categoryStyle} >
+            <Image w='100%' h='60%' borderRadius='6px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/bigpictures/carpenter.jpg' />
+            
             <Text fontSize='15px'>Furniture Making, Upholstery & Polish</Text>
            
           </Box>
-          <Box w='280px' h='400px' cursor='pointer' >
-            <Image w='100%' h='40%' borderRadius='6px' src ='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/images/growth/home-screen/1635829954373-d05590.jpeg' />
-            <br />
-            <Text fontSize='15px'>Air Purifier</Text>
-            <Text fontSize='12px' color='gray.500'>Flat ₹100 off</Text>
+          <Box style ={categoryStyle}  >
+            <Image w='100%' h='60%' borderRadius='6px' src ='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/images/growth/home-screen/1635829954373-d05590.jpeg' />
+           
+            <Text fontSize='15px' lineHeight='2px' mb='-10px'>Air Purifier</Text>
+            <Text fontSize='12px' color='gray.500' lineHeight='2px'>Flat ₹100 off</Text>
           </Box>
-          <Box w='280px' h='400px' cursor='pointer' >
-            <Image w='100%' h='40%' borderRadius='6px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/images/supply/customer-app-supply/1643120136395-80523e.jpeg' />
-            <br />
+          <Box style ={categoryStyle}  >
+            <Image w='100%' h='60%' borderRadius='6px' src='https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/images/supply/customer-app-supply/1643120136395-80523e.jpeg' />
+           
             <Text fontSize='15px'>RO Water Purifier</Text>
             
           </Box>

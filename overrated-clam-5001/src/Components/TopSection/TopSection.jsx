@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Image} from "@chakra-ui/react";
+import {Box} from "@chakra-ui/react";
 import Navbar from "../Navbar/Navbar";
 import Header from '../Header/HeadingText';
 import "./TopSection.modules.css"

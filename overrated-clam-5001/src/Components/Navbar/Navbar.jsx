@@ -1,4 +1,4 @@
-import { ReactNode, useRef, useState } from 'react';
+import {  useRef, useState } from 'react';
 import Logo from "../../Logo/logo.png";
 import {
   Box,
@@ -6,16 +6,9 @@ import {
   Avatar,
   Link,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
   useDisclosure,
   useColorModeValue,
   Stack,
-  useColorMode,
-  Center,
   Image,Text,
   Drawer,
   DrawerBody,
@@ -24,42 +17,31 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
-  Input,
+ 
   Select,
-  option,HStack,
+  HStack,
   NumberInput,
   NumberInputField,
   NumberInputStepper,
-  NumberIncrementStepper,
-  NumberDecrementStepper,
-  PinInput, PinInputField
+
+  PinInput, PinInputField,
+  useToast 
 } from '@chakra-ui/react';
 import { useContext } from "react";
 import { AuthContext } from '../../Context/AuthContext';
-import { Navigate } from "react-router-dom";
+
 
 
  
-const NavLink = ({ children }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={'md'}
-    _hover={{
-      textDecoration: 'none',
-      bg: useColorModeValue('gray.200', 'gray.700'),
-    }}
-    href={'#'}>
-    {children}
-  </Link>
-);
+
 
 export default function Navbar() {
   // const { colorMode, toggleColorMode } = useColorMode();
   const [num, setNum] = useState("");
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const btnRef =  useRef()
-  const {isAuth, LoginHandle, LogoutHandle} = useContext(AuthContext);
+  const btnRef =  useRef();
+  const toast = useToast();
+  const {isAuth, LoginHandle, LogoutHnadle} = useContext(AuthContext);
   const [expand, setExpand] = useState(false)
   const [num1, setNum1] = useState("")
   const [num2, setNum2] = useState("")
@@ -68,7 +50,7 @@ export default function Navbar() {
  
     const OTP =Math.floor(Math.random() * 10000)
    const handleSubmit = () => {
-    LoginHandle();
+    
       setTimeout(() => {
         alert (`Your One Time Password is: ${OTP}`)
       }, 1000);
@@ -82,10 +64,20 @@ export default function Navbar() {
    }
 
   const handleOtp =() => {
+    LoginHandle();
     return alert("Succesfully Logged in")
-    setNum1(null)
-  }
    
+  }
+   const Logout = () => {
+    LogoutHnadle();
+    return (toast({
+      title: 'Logged Out',
+      description: "You are successfully Logged Out",
+      status: 'error',
+      duration: 3000,
+      isClosable: true,
+    }))
+   }
   
   return (
     <>
@@ -154,12 +146,16 @@ export default function Navbar() {
   <br />
   <br />
   <Button onClick={handleOtp} w='100%' h='50px' bgColor='rgb(33,33,33)' color='white' >Submit OTP</Button>
-  </Box>
+ 
+   <Button w='100%' h='50px' bgColor='rgb(33,33,33)' color='white' disabled={!isAuth} 
+   onClick={Logout}
+   >Logout</Button>
+    </Box>
   : ""  }
 </HStack>
           </DrawerBody>
            <DrawerFooter>
-            <Button w='100%' h='50px' bgColor='rgb(33,33,33)' color='white' disabled={!isAuth} onClick={LogoutHandle} >Logout</Button>
+           
            </DrawerFooter>
         </DrawerContent>
       </Drawer>

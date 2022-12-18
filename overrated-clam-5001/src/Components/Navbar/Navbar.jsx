@@ -34,7 +34,12 @@ import {
   NumberDecrementStepper,
   PinInput, PinInputField
 } from '@chakra-ui/react';
+import { useContext } from "react";
+import { AuthContext } from '../../Context/AuthContext';
+import { Navigate } from "react-router-dom";
 
+
+ 
 const NavLink = ({ children }) => (
   <Link
     px={2}
@@ -54,6 +59,7 @@ export default function Navbar() {
   const [num, setNum] = useState("");
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef =  useRef()
+  const {isAuth, LoginHandle, LogoutHandle} = useContext(AuthContext);
   const [expand, setExpand] = useState(false)
   const [num1, setNum1] = useState("")
   const [num2, setNum2] = useState("")
@@ -62,7 +68,7 @@ export default function Navbar() {
  
     const OTP =Math.floor(Math.random() * 10000)
    const handleSubmit = () => {
-   
+    LoginHandle();
       setTimeout(() => {
         alert (`Your One Time Password is: ${OTP}`)
       }, 1000);
@@ -131,7 +137,7 @@ export default function Navbar() {
    </NumberInput>
             </HStack>
             <br />
-            <Button w='100%' h='50px' bgColor='rgb(33,33,33)' color='white' onClick={ num.length===10 ?handleSubmit :Alert }>Continue</Button>
+            <Button w='100%' h='50px' bgColor='rgb(33,33,33)' color='white' disabled={isAuth} onClick={ num.length===10 ? handleSubmit :Alert }>Continue</Button>
              <br />
              <br />  
              <br />  
@@ -152,7 +158,9 @@ export default function Navbar() {
   : ""  }
 </HStack>
           </DrawerBody>
-
+           <DrawerFooter>
+            <Button w='100%' h='50px' bgColor='rgb(33,33,33)' color='white' disabled={!isAuth} onClick={LogoutHandle} >Logout</Button>
+           </DrawerFooter>
         </DrawerContent>
       </Drawer>
             </Stack>

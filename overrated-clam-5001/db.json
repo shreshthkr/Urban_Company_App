@@ -152,5 +152,103 @@
             "img": "https://res.cloudinary.com/urbanclap/image/upload/t_medium_res_template,q_auto:low,f_auto/w_96,dpr_2,fl_progressive:steep,q_auto,c_limit/images/supply/customer-app-supply/1670486884829-7abce9.jpeg"
           }
 
+    ],
+    "mensection" : [
+      {
+        "id": "1",
+        "Highlight": "PACKAGE",
+        "service": "Haircut + Beard Grooming + Relaxing Head Massage",
+        "rating": 4.8,
+        "Total-Rating": "(1.3M)",
+        "price": 499,
+        "Timing": "1 hr 5 mins",
+        "Detail1": "Men's Haircut",
+        "Detail2": "Beard Shape & Style",
+        "Detail3": "10 min Head Massage"
+      },
+      {
+        "id": "2",
+        "Highlight": "PACKAGE",
+        "service": "Haircut + Hair Color",
+        "rating": 4.8,
+        "Total-Rating": "(1.3M)",
+        "price": 549,
+        "Timing": "60 mins",
+        "Detail1": "Garnier Color Naturals",
+        "Detail2": "Men's Haircut",
+        "Detail3": "10 min Head Massage"
+      },
+      {
+        "id": "3",
+        "Highlight": "PACKAGE",
+        "service": "Haircut + Relaxing Head Massage",
+        "rating": 4.8,
+        "Total-Rating": "(1.3M)",
+        "price": 399,
+        "Timing": "50 mins",
+        "Detail1": "Men's Haircut",
+        "Detail2": "₹50 off above ₹249",
+        "Detail3": "20 min Head Massage"
+      },
+      {
+        "id": "4",
+        "Highlight": "PACKAGE",
+        "service": "Haircut + Face Detan",
+        "rating": 4.8,
+        "Total-Rating": "(1.3M)",
+        "price": 649,
+        "Timing": "50 mins",
+        "Detail1": "Men's Haircut",
+        "Detail2":"₹50 off above ₹249" ,
+        "Detail3": "Face & Neck Detan Pack"
+      },
+      {
+        "id": "4",
+        "Highlight": "PACKAGE",
+        "service": "Oil reduction cleanup + Relaxing head massage",
+        "rating": 4.79,
+        "Total-Rating": "(289.9K)",
+        "price": 749,
+        "Timing": "45 mins",
+        "Detail1": "10 min Head Massage",
+        "Detail2": "₹50 off above ₹699",
+        "Detail3": "Oil Reduction Cleanup"
+      },
+      {
+        "id": "5",
+        "Highlight": "PACKAGE",
+        "service": "Beard grooming + anti-pollution cleanup",
+        "rating": 4.8,
+        "Total-Rating": "(228.7K)",
+        "price": 899,
+        "Timing": "60 mins",
+        "Detail1": "Beard Shape & Style",
+        "Detail2": "Face Detan",
+        "Detail3": "Anti-pollution Cleanup"
+      },
+      {
+        "id": "6",
+        "Highlight": "PACKAGE",
+        "service": "Father & Kid's Haircut",
+        "rating": 4.8,
+        "Total-Rating": "(1.3M)",
+        "price": 599,
+        "Timing": "1 hr 10 mins",
+        "Detail1": "10 min Head Massage",
+        "Detail2": "Men's Haircut",
+        "Detail3": "10 min Head Massage"
+      },
+      {
+        "id": "7",
+        "Highlight": "PACKAGE",
+        "service": "Make Your Own Package",
+        "rating": 4.8,
+        "Total-Rating": "(1.3M)",
+        "price": 1249,
+        "Timing": "2 hrs 5 mins",
+        "Detail1":"10 min Head Massage" ,
+        "Detail2": "Beard Shape & Style",
+        "Detail3": "Men's Haircut"
+      }
     ]
 }

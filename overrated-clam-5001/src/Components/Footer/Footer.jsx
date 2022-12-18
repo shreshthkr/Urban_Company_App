@@ -6,6 +6,7 @@ import {
     Flex,
     Text,
     Link,
+    SimpleGrid,
     useColorModeValue,
     VisuallyHidden,Image
   } from '@chakra-ui/react';
@@ -47,8 +48,19 @@ import {
       <Box h="auto"
       bgColor='black'
        >
-        <Box w='auto' h='80px' display='flex' alignItems='center' ml='50px'>
-            <Stack direction={{base: "row", md: "row", sm: "column"}} textColor='gray' fontWeight={600}  gap='10px'>
+        <Box w='auto' h='auto' bgColor='black'>
+            <Stack
+            spacing='10'
+            w='60%'
+            m='auto'
+            p='8'
+            display="flex"
+            direction={{sm:'column',md: "column", lg: 'row'}}
+            height='auto'
+            textColor='gray'
+            fontWeight={600}
+                 >
+
              <Link href={'#'}>About Us</Link>
              <Link href={'#'}>UC Impact</Link>
              <Link href={'#'}>Terms& Condition</Link>
@@ -58,6 +70,7 @@ import {
              <Link href={'#'}>ContactUs</Link>
             </Stack>
         </Box>
+        <hr />
         <Box w='ato' h='100px' display='flex' flexDirection='column' alignItems='left' ml='50px'>
             <Text textColor='white' textAlign='left' fontWeight={600} mb='3px'>Serving in</Text>
             <Text textColor='gray' fontWeight={600} textAlign='left' mb='3px'>USA</Text>
@@ -68,21 +81,17 @@ import {
             
             </Stack>
         </Box>
-        <Box  w='auto' h='80px' display='flex' flexDirection='column' alignItems='left' ml='50px' flexWrap='wrap'>
+        <Box  w='auto' h='auto' display='flex' flexDirection='column' alignItems='left' ml='50px' flexWrap='wrap'>
             <Text textColor='gray' textAlign='left'>IND</Text>
-            <Stack direction={{base: "row", md: "row", sm: "column"}} gap='10px' fontWeight={600} textColor='gray'>
-             <Link href={'#'}>Agra</Link>
-             <Link href={'#'}>Meerut</Link>
-             <Link href={'#'}>Nagpu</Link>
-             <Link href={'#'}>Varansi</Link>
+            <Stack direction={{sm:'column',md: "column", lg: 'row'}} column={{sm:1, md:2, lg:8}} gap='10px' fontWeight={600} textColor='gray'>
+           
              <Link href={'#'}>Kolkata</Link>
              <Link href={'#'}>Mumbai</Link>
              <Link href={'#'}>Patna</Link>
-             <Link href={'#'}>Nashik</Link>
              <Link href={'#'}>Delhi NCR</Link>
              <Link href={'#'}>Visakhapatnam</Link>
              <Link href={'#'}>Surat</Link>
-             <Link href={'#'}>Warangal.....</Link>
+             <Link href={'#'}>Warangal</Link>
              
             
             </Stack>

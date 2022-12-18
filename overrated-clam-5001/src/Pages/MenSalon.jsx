@@ -1,7 +1,5 @@
 import { useState,useEffect} from 'react'
-import{Box, Stack, VStack,HStack, Text,Image,Grid,
-  GridItem,
-  Heading,
+import{Box,VStack,HStack, Text,Image,Grid, Heading,
 } from "@chakra-ui/react";
 import {AiFillSafetyCertificate} from "react-icons/ai";
 import {FaStar} from "react-icons/fa";
